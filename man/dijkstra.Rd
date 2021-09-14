@@ -26,7 +26,7 @@ Pseudocode for this function taken from the Wikipedia page for Dijkstra
 Algorithm.
 }
 \examples{
-dijkstra(graph, 1)
+dijkstra(wiki_graph, 1)
 
 }
 \seealso{
