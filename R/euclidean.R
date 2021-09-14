@@ -18,7 +18,7 @@
 euclidean <- function(a, b) {
 
   stopifnot("arguments must be numeric scalars" =
-              all(is.numeric(c(a,b)), length(a) == 1, length(b) == 1), a >= 0, b >= 0)
+              all(is.numeric(c(a,b)), length(a) == 1, length(b) == 1))
 
   stopifnot("arguments must be integers" = all(floor(a) == a), floor(b) == b)
 
