@@ -1,12 +1,11 @@
 Package: Lab003
 Type: Package
-Title: This package contains functions implementing the Euclidean and Dijkstra algorithms.
+Title: Package for lab 3
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Patrick Hiemsch, Prakhar
+Maintainer: Prakhar <praxx543@student.liu.se>
+Description: This package contains functions implementing the Euclidean and Dijkstra algorithms.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
