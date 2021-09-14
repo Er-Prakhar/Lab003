@@ -2,24 +2,33 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Implementation of the Dijkstra algorithm
-The algorithm takes a graph and an initial node 
-and calculates the shortest path from the initial 
-node to every other node in the graph.}
+\title{Implementation of the Dijkstra algorithm}
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{Graph with weights}
+\item{graph}{A data frame with three variables (v1, v2 and w) that contains
+the edges of the graph (from v1 to v2) with the weight of the edge (w).}
 
-\item{init_node}{Starting node}
+\item{init_node}{A node in the graph whose distance is to be found from every
+other node of the graph.}
 }
 \value{
-shortest path to every other node
+A vector having the same length as the number of nodes in the
+  graph, containing the distances of the \code{init_node} from every other
+  node in the graph, in the same order as the order of the nodes.
 }
 \description{
-Pseudocode from: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+\code{dijkstra} finds the shortest distance from a given node in a graph to
+every other node in the graph, and returns a vector of these distances in the
+same order as the nodes.
+Pseudocode for this function taken from the Wikipedia page for Dijkstra
+Algorithm.
 }
 \examples{
 dijkstra(graph, 1)
+
+}
+\seealso{
+\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }

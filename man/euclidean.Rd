@@ -2,21 +2,25 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Find the greatest common divisor of two numbers.}
+\title{Find the greatest common divisor of two numbers}
 \usage{
 euclidean(a, b)
 }
 \arguments{
-\item{a}{A number}
-
-\item{b}{A number}
+\item{a, b}{Non negative integers.}
 }
 \value{
-The greatest common divisor
+Greatest common divisor of \code{a} and \code{b}.
 }
 \description{
-Pseudocode from: https://en.wikipedia.org/wiki/Euclidean_algorithm.
+\code{euclidean} returns the greatest common divisor of two values provided
+as arguments.
+Pseudocode taken from the Wikipedia page for the Euclidean algorithm.
 }
 \examples{
 euclidean(100, 1000)
+
+}
+\seealso{
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
