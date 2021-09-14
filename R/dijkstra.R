@@ -16,7 +16,7 @@
 #'   node in the graph, in the same order as the order of the nodes.
 #'
 #' @examples
-#' dijkstra(graph, 1)
+#' dijkstra(df, 1)
 #'
 #' @seealso \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 #'
